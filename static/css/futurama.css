@@ -88,3 +88,12 @@ body {
     font-family: MollyJack;
     font-size: 1em;
 }
+
+.footer {
+    color: #000;
+    text-align: center;
+}
+
+.disabled {
+    color: #cdcdcd;
+}
