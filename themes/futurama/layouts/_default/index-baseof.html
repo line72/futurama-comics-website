@@ -1,3 +1,6 @@
+{{/* load a random comic page */}}
+
+{{ with (index (shuffle .Site.RegularPages) 0) }}
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
@@ -9,3 +12,4 @@
         </div>
     </body>
 </html>
+{{ end }}
