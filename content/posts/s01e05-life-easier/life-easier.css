@@ -1,5 +1,5 @@
 #panel-1-1 {
-    background-image: url(/images/s01e05/life-easier/futurama-1.png);
+    background-image: url(futurama-1.png);
     background-position-y: -170px;
     width: 640px;
     height: 200px;
@@ -13,7 +13,7 @@
 }
 
 #panel-2-1 {
-    background-image: url(/images/s01e05/life-easier/futurama-2.png);
+    background-image: url(futurama-2.png);
     background-size: cover;
     width: 320px;
     height: 240px;
@@ -27,7 +27,7 @@
 }
 
 #panel-2-2 {
-    background-image: url(/images/s01e05/life-easier/futurama-3.png);
+    background-image: url(futurama-3.png);
     background-size: cover;
     width: 320px;
     height: 240px;
