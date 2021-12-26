@@ -1,0 +1,42 @@
+#panel-1-1 {
+    background-image: url(/images/s01e05/life-easier/futurama-1.png);
+    background-position-y: -170px;
+    width: 640px;
+    height: 200px;
+    border: 5px black solid;
+}
+
+#panel-1-1 > .speech-bubble {
+    top: -85px;
+    left: 150px;
+    width: 320px;
+}
+
+#panel-2-1 {
+    background-image: url(/images/s01e05/life-easier/futurama-2.png);
+    background-size: cover;
+    width: 320px;
+    height: 240px;
+    border: 5px black solid;
+}
+
+#panel-2-1 > .speech-bubble {
+    top: -100px;
+    left: 180px;
+    width: 150px;
+}
+
+#panel-2-2 {
+    background-image: url(/images/s01e05/life-easier/futurama-3.png);
+    background-size: cover;
+    width: 320px;
+    height: 240px;
+    border: 5px black solid;
+}
+
+#panel-2-2 > .speech-bubble {
+    top: -100px;
+    left: 125px;
+    width: 150px;
+}
+
