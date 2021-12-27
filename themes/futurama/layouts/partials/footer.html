@@ -1,16 +1,6 @@
 <div class="footer">
-  {{- with .PrevInSection }}
-  <a href="{{ .Permalink }}"><span id="prev">Previous</span></a>
-  {{- else }}
-    <span id="prev" class="disabled">Previous</span>
-  {{- end }}
-  |
-  {{- with (index (shuffle .Site.RegularPages) 0) }}
-  <a href="{{ .Permalink }}"><span id="rand">Random</span></a> |
-  {{- end }}
-  {{- with .NextInSection }}
-  <a href="{{ .Permalink }}"><span id="next">Next</span></a>
-  {{- else }}
-    <span id="next" class="disabled">Next</span>
-  {{- end }}
+  <hr />
+  <span id="copyright">
+    &copy; {{ now.Format "2006" }} <a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a>
+  </span>
 </div>
