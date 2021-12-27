@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://futurama.line72.net/'
 languageCode = 'en-us'
 title = 'Futurama Comics'
 theme = 'futurama'
