@@ -33,7 +33,6 @@ body {
     color: #fff;
     content: "";
     margin: auto;
-    margin-bottom: -50px;
 }
 
 .header {
@@ -102,6 +101,7 @@ body {
 .navigation {
     color: #000;
     text-align: center;
+    padding-top: 25px;
     padding-bottom: 25px;
 }
 
