@@ -1,5 +1,5 @@
 <div class="navigation">
-  {{- with .PrevInSection }}
+  {{- with .NextInSection }}
   <a href="{{ .Permalink }}"><span id="prev">Previous</span></a>
   {{- else }}
     <span id="prev" class="disabled">Previous</span>
@@ -8,7 +8,7 @@
   {{- with (index (shuffle .Site.RegularPages) 0) }}
   <a href="{{ .Permalink }}"><span id="rand">Random</span></a> |
   {{- end }}
-  {{- with .NextInSection }}
+  {{- with .PrevInSection }}
   <a href="{{ .Permalink }}"><span id="next">Next</span></a>
   {{- else }}
     <span id="next" class="disabled">Next</span>

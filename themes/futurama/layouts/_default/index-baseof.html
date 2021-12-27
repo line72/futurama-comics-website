@@ -1,6 +1,6 @@
 {{/* load a random comic page */}}
 
-{{ with (index (shuffle .Site.RegularPages) 0) }}
+{{ with (index .Site.RegularPages.ByTitle 0) }}
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
