@@ -4,7 +4,7 @@
   <link rel="stylesheet" type="text/css" href="/css/futurama.css">
 
   {{ if .Params.css }}
-  <link rel="stylesheet" type="text/css" href="/{{ .Dir }}/{{ .Params.css }}">
+  <link rel="stylesheet" type="text/css" href="/{{ .File.Dir }}/{{ .Params.css }}">
   {{ end }}
   
   {{ $title := print .Site.Title " | " .Title }}
