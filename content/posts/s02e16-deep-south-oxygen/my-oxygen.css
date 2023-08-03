@@ -1,0 +1,41 @@
+#panel-1-1 {
+    background-image: url(futurama-1.jpg);
+    background-size: cover;
+    width: 640px;
+    height: 480px;
+    border: 5px black solid;
+}
+
+#panel-1-1 > .speech-bubble {
+    top: -175px;
+    left: 150px;
+    width: 180px;
+}
+
+#panel-2-1 {
+    background-image: url(futurama-2.jpg);
+    background-size: cover;
+    width: 320px;
+    height: 240px;
+    border: 5px black solid;
+}
+
+#panel-2-1 > .speech-bubble {
+    top: -125px;
+    left: 10px;
+    width: 150px;
+}
+
+#panel-2-2 {
+    background-image: url(futurama-3.jpg);
+    background-size: cover;
+    width: 320px;
+    height: 240px;
+    border: 5px black solid;
+}
+
+#panel-2-2 > .speech-bubble {
+    top: -125px;
+    left: -20px;
+    width: 150px;
+}
